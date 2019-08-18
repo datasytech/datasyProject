@@ -1,0 +1,62 @@
+  
+  
+  //TABLE
+  {/* <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>LastName</th>
+                        <th>HKID</th>
+                        <th>Chinese Name</th>
+                        <th>Gender</th>
+                        <th>Phone Number</th>
+                        <th> Address</th>
+                        <th>Employment Status</th>
+                        <th>Relative's Name</th>
+                        <th>Relative's Phone Number</th>
+                        <th>Remarks</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        people.map(row =>(
+                            <tr>
+                                <td>{row.FirstName}</td>
+                                <td>{row.LastName}</td>
+                                <td>{row.HKID}</td>
+                                <td>{row.ChineseName}</td>
+                                <td>{row.Gender}</td>
+                                <td>{row.PhoneNumber}</td>
+                                <td>{row.Address}</td>
+                                <td>{row.EmploymentStatus}</td>
+                                <td>{row.RelativeName}</td>
+                                <td>{row.RelativePhoneNumber}</td>
+                                <td>{row.Remarks}</td>
+                                <DeleteEntry id = {row.id}></DeleteEntry>
+                            </tr>
+                        ))
+                    }
+                </tbody>
+            </table>
+
+            {/* <ul>
+                {people.map((person)=>
+                <li key={person.id}>   
+                    <div className ='PersonData'>
+                        <EditEntry HKID = {person.HKID} ID={person.id} Name ={person.name} 
+                        FirstName = {person.FirstName}
+                        LastName ={person.LastName}
+                        ChineseName= {person.ChineseName}
+                        Gender ={person.Gender}
+                        PhoneNumber = {person.PhoneNumber}
+                        Address = {person.Address}
+                        EmploymentStatus = {person.EmploymentStatus}
+                        RelativeName = {person.RelativeName}
+                        RelativePhoneNumber = {person.RelativePhoneNumber}
+                        Remarks={person.Remarks}/>
+                        <DeleteEntry id = {person.id}/>
+                    </div>
+                </li> 
+                )}
+            </ul> */}
