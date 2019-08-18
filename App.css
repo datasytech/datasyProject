@@ -1,0 +1,50 @@
+.header{
+    padding-left: 20px;
+    background: white;
+    align-items: center;
+     
+}
+.body{
+    
+   
+    background:  rgb(110, 110, 207);
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    
+}
+.emailLabel, .passwordLabel {
+ padding-right: 10px;
+}
+.login-form{
+    padding-left: 20px;
+    
+}
+.form-group{
+  
+    padding: 20px, 20px, 20px, 20px;
+
+
+}
+
+.paragraph{
+    flex:1; 
+}
+.input-row{
+    width: 200px;
+    flex: 1;
+    border-radius: 20px;
+    
+    padding-left: 10px;
+}
+.footer{
+    padding-left: 20px;
+    display: flex;
+    
+    background: white;
+}
+.end{
+    text-align: center;
+}
+
+
